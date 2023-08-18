@@ -11,7 +11,7 @@ class Aluno(BaseModel):
 
 @app.get("/")
 async def root():
-    mensagem = {"response" : "Ei Real Madrid, pode esperar..."}
+    mensagem = {"response" : "SINHORA DA ABADIA!!!"}
     return mensagem
 
 @app.get("/parametro/{parametro_id}")
